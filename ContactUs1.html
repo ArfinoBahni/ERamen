@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact ERamen</title>
+    <link rel="stylesheet" href="ContactUs1style.css">
+</head>
+<body>
+    <div class="HeaderSection">
+        <div class="wrapper">
+            <header>
+                <div class="LogoSection"><a href="./Home.html"><img src="./Images/Logo section.svg" alt=""></a></div>
+                <div class="SosmedButton">
+                    <img src="./Images/WhatsappLogo.png" alt="">
+                    <img src="./Images/InstagramLogo.png" alt="">
+                    <img src="./Images/TwitterLogo.png" alt="">
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="wrapper">
+            <h1>Contact Us</h1>
+            <p class="desc">Please fill in the contact form below if you have any inquiries</p>
+            <div class="FormSection">
+                <form action="" method="get" onsubmit="val()">
+                    <div class="formcontent">
+                        <label for="name">Full Name</label>
+                        <br>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="formcontent">
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="formcontent">
+                        <label for="phone">Phone Number</label>
+                        <br>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                    <div class="formcontent">
+                        <label for="subject">Subject</label>
+                        <br>
+                        <input type="text" name="subject" id="subject" required>
+                    </div>
+                    <div class="formcontent">
+                        <label for="message">Message</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <input type="submit" value="Send Message" class="Submitbutton">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="FooterSection">
+        <div class="wrapper">
+            <footer>
+                <div class="FooterRamenIcon">
+                    <a href="#"><img src="./Images/RamenIcon.svg" alt="" height="200px" width="200px"></a>
+                </div>
+                <ul class="navigation">
+                    <li><a href="./Home.html">Home</a></li>
+                    <li><a href="./Menu.html">Menu</a></li>
+                    <li><a href="./Promotions.html">Promotions</a></li>
+                    <li><a href="./AboutUs.html">About Us</a></li>
+                    <li><a href="./ContactUs1.html">Contact Us</a></li>
+                </ul>
+                <p>© copyright 2015 ERamen Indonesia All Rights Reserved</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="Validation.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.HeaderSection {
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    background-color: #FEE379;
+    z-index: 10000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 17px;
+}
+
+.SosmedButton img{
+    margin-left: 32px;
+}
+
+.Promo1 img {
+    position: relative;
+    left: 350px;
+    top: 152px;
+}
+
+.Promo1 .description {
+    position: absolute;
+    top: 830px;
+}
+
+.description {
+    left: 51px;
+    width: 537px;
+}
+
+.description ul {
+    position: relative;
+    left: 40px;
+}
+
+.Promo1 h1 {
+    position: relative;
+    top: 250px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #D8666E;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.description li {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+.Promo2 {
+    position: absolute;
+    top: 1478px;
+}
+
+.Promo2 img {
+    position: absolute;
+    left: 350px;
+}
+
+.Promo2 h1 {
+    position: relative;
+    top: 600px;
+}
+
+.Promo2 .description {
+    position: absolute;
+    top: 721px;
+}
+
+.FooterSection {
+    position: absolute;
+    width: 100vw;
+    height: 425px;
+    top: 2575px;
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.FooterRamenIcon {
+    position: absolute;
+    top: 108px;
+    /* left: 87px; */
+}
+
+.navigation{
+    position: absolute;
+    top: 108px;
+    left:300px;
+    display: grid;
+    gap: 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-size: 32px;
+    /* margin-bottom: 15px; */
+}
+
+.navigation a:hover {
+    color: #D8666E;
+    transition: .3s;
+}
+
+footer p {
+    color: white;
+    position: absolute;
+    right: 0px;
+    top: 197px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}

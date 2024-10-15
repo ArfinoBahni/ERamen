@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.HeaderSection {
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    background-color: #FEE379;
+    z-index: 10000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 17px;
+}
+
+.SosmedButton img{
+    margin-left: 32px;
+}
+
+.WhatIsERamen {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+}
+
+.WelcometoEramen {
+    color: #D8666E;
+    position: relative;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    top: 145px;
+}
+
+p {
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+}
+
+.About p {
+    width: 709px;
+    height: 425px;
+}
+
+.About {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 200px;
+}
+
+.Vision {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 300px;
+    align-items: center;
+}
+
+.Vision p {
+    width: 709px;
+    height: 201px;
+}
+
+.Mission {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    top: 400px;
+}
+
+.Mission p {
+    width: 650px;
+    height: 226px;
+}
+
+.FooterSection {
+    position: absolute;
+    width: 100vw;
+    height: 425px;
+    top: 2200px;
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.FooterRamenIcon {
+    position: absolute;
+    top: 108px;
+    /* left: 87px; */
+}
+
+.navigation{
+    position: absolute;
+    top: 108px;
+    left:300px;
+    display: grid;
+    gap: 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-size: 32px;
+    /* margin-bottom: 15px; */
+}
+
+.navigation a:hover {
+    color: #D8666E;
+    transition: .3s;
+}
+
+footer p {
+    color: white;
+    position: absolute;
+    right: 0px;
+    top: 197px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
